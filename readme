@@ -1,0 +1,9 @@
+特征构建方式：
+1）广告各个id的word2vec emb特征
+2）用户按照product category点击广告的百分比特征
+3）用户90天按照天聚合的click times特征。（同龄人在某个新品出来了，可能会在某一天有更多的点击广告行为。
+4）广告各个id的graph emb特征
+5）预测年龄时用比较准确的性别特征，年龄大小特征(1~10的年龄特征划分为2~3类，可能准确率比较高)
+
+其它资料
+https://mp.weixin.qq.com/s?__biz=MzI1MzY0MzE4Mg==&mid=2247486619&idx=2&sn=973edc04b093de38a030643ad9342db2&chksm=e9d01c5adea7954c000821c51ae18488ed225657a82aad2b727fe8a94f88d6066d06756f118f&mpshare=1&scene=1&srcid=0521S5pv8ubz6NcLxwhZqcrS&sharer_sharetime=1590034260155&sharer_shareid=d6d834a9eb51df43bcb2bec34c8116ce&key=2edb9e4f1ac198678722e102d9ff48ba19f9915771b855520d02c938ce554006f455322f583feb08db4cff733ccfdeb2e44f3332d19b5dc6bece147d16f906a93d3e2c68455612eae9038cdf5c98cc00&ascene=1&uin=NjQwNDkwMjQz&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=AUepZV2J%2Fgub%2Fcx9CjK0mpU%3D&pass_ticket=lmfUQ5CT%2BfftGCriQAqLsjTtCRViLeF3%2FPB9EwhoCjAXYdXcpMKOkCFG5mUddotW
